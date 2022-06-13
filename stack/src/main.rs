@@ -1,7 +1,7 @@
 fn main() {
     let x = 2;
     let y = x;
-    let string = Sting::from("hello");  // stored on heap
+    let string = String::from("hello");  // stored on heap
 
     example();
     let z = add(x, y);
